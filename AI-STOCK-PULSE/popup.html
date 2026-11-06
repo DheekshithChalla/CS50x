@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+
+    <h2>📈 AI Stock Pulse</h2>
+
+    <select id="symbol">
+        <option value="AAPL">Apple</option>
+        <option value="MSFT">Microsoft</option>
+        <option value="NVDA">NVIDIA</option>
+        <option value="TSLA">Tesla</option>
+        <option value="AMZN">Amazon</option>
+        <option value="GOOGL">Google</option>
+        <option value="META">Meta</option>
+        <option value="NFLX">Netflix</option>
+        <option value="AMD">AMD</option>
+        <option value="IBM" selected>IBM</option>
+    </select>
+
+    <br><br>
+
+    <button id="refresh">
+        Refresh Market
+    </button>
+
+    <br><br>
+
+    <div id="market">
+
+    </div>
+
+    <br>
+
+    <div id="ai"></div>
+
+    <script src="popup.js"></script>
+
+</body>
+
+</html>
